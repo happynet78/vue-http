@@ -5,14 +5,20 @@
 	<!-- Lifecycle Hooks -->
 	<!-- <Parent /> -->
 
-	<TemplateRef />
+	<!-- <TemplateRef /> -->
+
+	<!-- Mixin -->
+	<ClickCount />
+	<HoverCount />
 </template>
 
 <script>
 // import PostList from './components/PostList.vue'
 // import CreatePost from './components/CreatePost.vue'
 // import Parent from './components/Parent.vue'
-import TemplateRef from './components/TemplateRef.vue'
+// import TemplateRef from './components/TemplateRef.vue'
+import ClickCount from './components/ClickCounter.vue'
+import HoverCount from './components/HoverCounter.vue'
 
 export default {
 	name: 'App',
@@ -20,7 +26,9 @@ export default {
 		// PostList,
 		// CreatePost,
 		// Parent,
-		TemplateRef,
+		// TemplateRef,
+		ClickCount,
+		HoverCount,
 	}
 }
 </script>
